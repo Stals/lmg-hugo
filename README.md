@@ -5,7 +5,7 @@ This is a collection of shortcodes and partials that I started while [migrating 
 <a href="https://bit.ly/3eovU6F"><img src="https://letsmakeagame.net/joinDiscord.png" width="300"></a>
 
 ## Shortcodes Usage
-Copy them to `layouts/shortcodes` folder and use them depending on the shortcode itself. Or you can also add any of this reposity subfolders as [submodules](https://github.blog/2016-02-01-working-with-submodules/).
+Copy them to `layouts/shortcodes` folder and use depending on the shortcode itself. Or you can also add any of this reposity subfolders as [submodules](https://github.blog/2016-02-01-working-with-submodules/).
 
 ### Table of Contents
 Usage: `{{< table-of-contents >}}`
