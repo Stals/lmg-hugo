@@ -2,8 +2,7 @@
 
 This is a collection of shortcodes and partials that I started while [migrating my gamedev blog to Hugo](https://letsmakeagame.net/static-vs-dynamic-website/).
 
-[![Join Discord](https://letsmakeagame.net/joinDiscord.png)](https://bit.ly/3eovU6F)
-<a href="https://bit.ly/3eovU6F"><img src="https://letsmakeagame.net/joinDiscord.png" width="200"></a>
+<a href="https://bit.ly/3eovU6F"><img src="https://letsmakeagame.net/joinDiscord.png" width="300"></a>
 
 ## Shortcodes Usage
 Copy them to `layouts/shortcodes` folder and use them depending on the shortcode itself. Or you can also add any of this reposity subfolders as [submodules](https://github.blog/2016-02-01-working-with-submodules/).
