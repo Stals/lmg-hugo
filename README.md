@@ -3,7 +3,24 @@
 This is a collection of shortcodes and partials that I started while [migrating my gamedev blog to Hugo](https://letsmakeagame.net/static-vs-dynamic-website/).
 
 ## Shortcodes Usage
-Put them in the `layouts/shortcodes` folder and use them depending on the shortcode itself. You can also add any of this reposity subfolders as [submodules](https://github.blog/2016-02-01-working-with-submodules/).
+Copy them to `layouts/shortcodes` folder and use them depending on the shortcode itself. Or you can also add any of this reposity subfolders as [submodules](https://github.blog/2016-02-01-working-with-submodules/).
 
 ### Table of Contents
-- TODO
+Usage: `{{< table-of-contents >}}`
+
+### Collapsible
+Usage:
+``` 
+{{< collapsible summary="" >}}
+Here goes something you want to be mostly hidden by default, but with ability to open it.
+{{< /collapsible >}}
+```
+
+Use can even add other shortcodes inside the collapsible block
+```
+{{< collapsible summary="Code Example" >}}
+{{< highlight "C#" >}}
+// your code here
+{{< /highlight >}}
+{{< /collapsible >}}
+```
