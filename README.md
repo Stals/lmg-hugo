@@ -8,9 +8,6 @@ This is a collection of shortcodes and partials that I started while [migrating 
 You can find all the shortcodes in the [`shortcodes`](https://github.com/Stals/lmg-hugo/tree/main/shortcodes) folder. 
 Copy them to `layouts/shortcodes` folder and use depending on the shortcode itself. Or you can also add any of this reposity subfolders as [submodules](https://github.blog/2016-02-01-working-with-submodules/).
 
-### Table of Contents
-Usage: `{{< table-of-contents >}}`
-
 ### Text Highlight
 Usage:
 ```
@@ -44,3 +41,6 @@ Use can even add other shortcodes inside the collapsible block
 {{< /highlight >}}
 {{< /collapsible >}}
 ```
+
+### Table of Contents
+Usage: `{{< table-of-contents >}}`
