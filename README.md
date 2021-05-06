@@ -11,6 +11,21 @@ Copy them to `layouts/shortcodes` folder and use depending on the shortcode itse
 ### Table of Contents
 Usage: `{{< table-of-contents >}}`
 
+### Text Highlight
+Usage:
+```
+{{< text-highlight >}}
+Your highlighted text goes here
+{{< /text-highlight >}}
+```
+You can also use other highlight colors if you just pass "Crimson", "Cyan" or any other [color names supported by modern browsers](https://www.w3schools.com/tags/ref_colornames.asp),
+or specify a full color code including transparency, like `#dc143c26`
+```
+{{< text-highlight color="#dc143c26">}}
+Your highlighted text goes here
+{{< /text-highlight >}}
+```
+
 ### Collapsible
 This may not work for some older browser versions, [see here](https://caniuse.com/details).
 
