@@ -28,7 +28,7 @@ This may not work for some older browser versions, [see here](https://caniuse.co
 
 Usage:
 ``` 
-{{< collapsible summary="" >}}
+{{< collapsible summary="Click to Expand" >}}
 Here goes something you want to be mostly hidden by default, but with ability to open it.
 {{< /collapsible >}}
 ```
